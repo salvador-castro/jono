@@ -2,67 +2,61 @@ const Courses = () => {
     const courses = [
         {
             title: "Bautismo",
-            desc: "Tu primera experiencia bajo el agua. Ideal para principiantes que quieren probar el buceo.",
+            desc: "Descubrí el mundo subacuático de forma segura y divertida. Tu primera respiración bajo el agua sin necesidad de experiencia previa.",
             price: "$0",
             image: "/cursos/course-bautismo.png"
         },
         {
-            title: "Open Water Diver",
-            desc: "El curso más popular del mundo. Obtén tu certificación para bucear de forma autónoma.",
+            title: "Open Water Diver (OWD)",
+            desc: "Tu pasaporte al buceo. Aprendé los fundamentos teóricos y prácticos para bucear de forma autónoma en cualquier lugar del mundo.",
             price: "$250.000",
             image: "/cursos/course-openwater.png"
         },
         {
             title: "Advanced Open Water",
-            desc: "Lleva tus habilidades al siguiente nivel con inmersiones de aventura y especialidades.",
+            desc: "Perfeccioná tu flotabilidad y navegación. Explorá nuevas aventuras como buceo profundo, nocturno y en barcos hundidos.",
             price: "$450.000",
             image: "/cursos/course-advanced.png"
         },
         {
-            title: "SDI Nitrox Diver",
-            desc: "Más tiempo bajo el agua, más seguridad. Hoy es casi 'obligatorio' en muchos centros.",
-            price: "Consultar",
-            image: "/cursos/course-nitrox.png"
-        },
-        {
-            title: "SDI Dry Suit Diver",
-            desc: "Clave para aguas frías (Patagonia, lagos, Europa, etc.). Amplía muchísimo los destinos posibles.",
+            title: "Traje Seco",
+            desc: "Olvídate del frío y buceá todo el año. Aprendé las técnicas para usar traje seco y extendé tus límites a aguas frías como la Patagonia.",
             price: "Consultar",
             image: "/cursos/course-dry-suit.png"
         },
         {
-            title: "SDI Rescue Diver",
-            desc: "El curso que más mejora tu cabeza como buceador. Gestión de emergencias, prevención y autosuficiencia.",
+            title: "Rescate (Rescue)",
+            desc: "Convertite en el mejor compañero. Desarrollá habilidades críticas para prevenir y gestionar emergencias, aumentando tu confianza bajo el agua.",
             price: "Consultar",
             image: "/cursos/course-rescue.png"
         },
         {
-            title: "TDI Nitrox Diver",
-            desc: "Puerta de entrada al mundo técnico. Base para todos los cursos siguientes.",
+            title: "Buzo Nitrox",
+            desc: "Extendé tu tiempo de fondo y reducí la fatiga. Aprendé a planificar buceos con aire enriquecido para inmersiones más largas y seguras.",
             price: "Consultar",
             image: "/cursos/course-tdi-nitrox.png"
         },
         {
-            title: "TDI Advanced Nitrox Diver",
-            desc: "Uso de oxígeno alto para descompresión. Fundamental para seguridad en inmersiones largas.",
+            title: "Nitrox Avanzado",
+            desc: "El primer paso al buceo técnico. Aprendé a usar mezclas de oxígeno hasta el 100% para acelerar tu descompresión de forma segura.",
             price: "Consultar",
             image: "/cursos/course-tdi-adv-nitrox.png"
         },
         {
-            title: "TDI Decompression Procedures Diver",
-            desc: "Aprendés a planificar y ejecutar descompresión real. Acá empieza el buceo técnico 'de verdad'.",
+            title: "Procedimientos de Descompresión",
+            desc: "Rompé el límite de no-descompresión. Planificá y ejecutá inmersiones profundas con paradas de descompresión obligatorias.",
             price: "Consultar",
             image: "/cursos/course-tdi-deco.png"
         },
         {
-            title: "TDI Extended Range Diver",
-            desc: "Más profundidad + más tiempo + más complejidad. Uso avanzado de gases y procedimientos.",
+            title: "Rango Extendido",
+            desc: "Superá los 40 metros. Entrenate en el uso de mezclas de gases y equipos redundantes para explorar más allá del buceo recreativo.",
             price: "Consultar",
             image: "/cursos/course-tdi-extended-range.png"
         },
         {
-            title: "TDI Trimix Diver",
-            desc: "El estándar para buceo profundo técnico. Reduce narcosis y riesgos a grandes profundidades.",
+            title: "Buzo Trimix",
+            desc: "La cima del buceo exploratorio. Aprendé a usar Helio para reducir la narcosis y alcanzar grandes profundidades con claridad mental.",
             price: "Consultar",
             image: "/cursos/course-tdi-trimix.png"
         }
