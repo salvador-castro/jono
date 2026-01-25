@@ -29,7 +29,7 @@ const Hero = () => {
                 playsInline
                 className="hero-video"
             >
-                <source src={isMobile ? "/videos/hero-vertical.mp4" : "/videos/hero-horizonal.mp4"} type="video/mp4" />
+                <source src={isMobile ? "/videos/hero-vertical.mp4" : "/videos/hero-horizontal.mp4"} type="video/mp4" />
                 {/* Fallback for browsers that do not support the video tag */}
             </video>
             <div className="hero-overlay"></div>
