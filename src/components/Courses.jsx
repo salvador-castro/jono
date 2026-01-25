@@ -3,19 +3,19 @@ const Courses = () => {
         {
             title: "Bautismo",
             desc: "Tu primera experiencia bajo el agua. Ideal para principiantes que quieren probar el buceo.",
-            price: "$50",
+            price: "$0",
             image: "/cursos/course-bautismo.png"
         },
         {
             title: "Open Water Diver",
             desc: "El curso más popular del mundo. Obtén tu certificación para bucear de forma autónoma.",
-            price: "$350",
+            price: "$250.000",
             image: "/cursos/course-openwater.png"
         },
         {
             title: "Advanced Open Water",
             desc: "Lleva tus habilidades al siguiente nivel con inmersiones de aventura y especialidades.",
-            price: "$300",
+            price: "$450.000",
             image: "/cursos/course-advanced.png"
         }
     ];

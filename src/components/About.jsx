@@ -3,13 +3,13 @@ const About = () => {
         {
             name: "Fernando Jara",
             role: "Master Instructor",
-            certs: ["PADI Master", "Rescue Diver", "Deep Dive"],
+            certs: ["PADI Master", "Rescue Diver", "Deep Dive", "EFR Instructor", "Night Diver"],
             image: "/instructores/instructor1.jpg"
         },
         {
             name: "Claudio Bravo",
             role: "Lead Instructor",
-            certs: ["Nitrox", "Technical Tech", "Cave Diver"],
+            certs: ["Nitrox", "Technical Tech", "Cave Diver", "Wreck Diver", "Sidemount"],
             image: "/instructores/instructor2.jpg"
         }
     ];
