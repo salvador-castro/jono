@@ -1,16 +1,82 @@
-# React + Vite
+# 🌊 Jono Buceo - Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenido al repositorio del proyecto oficial de **Jono Buceo**. Esta es una Landing Page moderna y responsiva diseñada para promocionar cursos de buceo y experiencias subacuáticas.
 
-Currently, two official plugins are available:
+![Jono Buceo Preview](/public/logo/logo.jpg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Características
 
-## React Compiler
+- **Diseño Moderno y Responsivo**: Adaptable a dispositivos móviles, tablets y escritorio.
+- **Hero Section Dinámica**:
+  - Video de fondo horizontal para escritorio.
+  - Video vertical optimizado para móviles con cambio automático.
+- **Menú de Navegación**:
+  - Barra de navegación adhesiva (sticky).
+  - Menú hamburguesa animado para versiones móviles.
+- **Secciones Informativas**:
+  - **Instructores**: Presentación del equipo con tarjetas de perfil.
+  - **Cursos**: Listado de ofertas con descripciones y precios.
+- **Formulario de Contacto Funcional**:
+  - Integración con **FormSubmit** para envío de emails sin backend.
+  - Validaciones en tiempo real (email, teléfono numérico).
+  - Feedback visual de estado (Cargando, Éxito, Error).
+- **Footer Multimedia**:
+  - Video de fondo con superposición (overlay) para legibilidad.
+  - Enlaces a redes sociales y créditos del desarrollador.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tecnologías Utilizadas
 
-## Expanding the ESLint configuration
+- **React** (v18)
+- **Vite** (para un entorno de desarrollo rápido)
+- **CSS3** (Variables CSS, Flexbox, Media Queries, Animaciones)
+- **HTML5** (Semántico)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Instalación y Uso
+
+Sigue estos pasos para correr el proyecto localmente:
+
+1.  **Clonar el repositorio**:
+    ```bash
+    git clone https://github.com/salvador-castro/jono.git
+    cd jono
+    ```
+
+2.  **Instalar dependencias**:
+    ```bash
+    npm install
+    ```
+
+3.  **Ejecutar el servidor de desarrollo**:
+    ```bash
+    npm run dev
+    ```
+    El sitio estará disponible en `http://localhost:5173`.
+
+4.  **Construir para producción**:
+    ```bash
+    npm run build
+    ```
+
+## 📂 Estructura del Proyecto
+
+```
+jono/
+├── public/              # Archivos estáticos
+│   ├── cursos/          # Imágenes de cursos
+│   ├── instructores/    # Fotos de instructores
+│   ├── logo/            # Logo del sitio
+│   └── videos/          # Videos de fondo (Hero, Footer)
+├── src/
+│   ├── components/      # Componentes de React (Navbar, Hero, About, etc.)
+│   ├── App.jsx          # Componente principal
+│   ├── main.jsx         # Punto de entrada
+│   └── index.css        # Estilos globales y variables
+└── index.html           # HTML base
+```
+
+## 👨‍💻 Créditos
+
+Desarrollado por **[Salva Castro](https://salvadorcastro.vercel.app/)**.
+
+---
+&copy; 2026 Jono Buceo. Todos los derechos reservados.
