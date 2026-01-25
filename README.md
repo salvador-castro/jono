@@ -26,7 +26,7 @@ Bienvenido al repositorio del proyecto oficial de **Jono Buceo**. Esta es una La
 
 ## 🛠️ Tecnologías Utilizadas
 
-- **React** (v18)
+- **React** (v19)
 - **Vite** (para un entorno de desarrollo rápido)
 - **CSS3** (Variables CSS, Flexbox, Media Queries, Animaciones)
 - **HTML5** (Semántico)
@@ -61,12 +61,13 @@ Sigue estos pasos para correr el proyecto localmente:
 
 ```
 jono/
-├── public/              # Archivos estáticos
+├── public/              # Recursos públicos (imágenes, videos)
 │   ├── cursos/          # Imágenes de cursos
 │   ├── instructores/    # Fotos de instructores
 │   ├── logo/            # Logo del sitio
 │   └── videos/          # Videos de fondo (Hero, Footer)
 ├── src/
+│   ├── assets/          # Recursos importados (imágenes, iconos)
 │   ├── components/      # Componentes de React (Navbar, Hero, About, etc.)
 │   ├── App.jsx          # Componente principal
 │   ├── main.jsx         # Punto de entrada
