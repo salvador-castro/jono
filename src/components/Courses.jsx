@@ -3,19 +3,19 @@ const Courses = () => {
         {
             title: "Bautismo",
             desc: "Descubrí el mundo subacuático de forma segura y divertida. Tu primera respiración bajo el agua sin necesidad de experiencia previa.",
-            price: "$0",
+            price: "Consultar",
             image: "/cursos/course-bautismo.png"
         },
         {
             title: "Open Water Diver (OWD)",
             desc: "Tu pasaporte al buceo. Aprendé los fundamentos teóricos y prácticos para bucear de forma autónoma en cualquier lugar del mundo.",
-            price: "$250.000",
+            price: "Consultar",
             image: "/cursos/course-openwater.png"
         },
         {
             title: "Advanced Open Water",
             desc: "Perfeccioná tu flotabilidad y navegación. Explorá nuevas aventuras como buceo profundo, nocturno y en barcos hundidos.",
-            price: "$450.000",
+            price: "Consultar",
             image: "/cursos/course-advanced.png"
         },
         {
@@ -53,18 +53,14 @@ const Courses = () => {
             desc: "Superá los 40 metros. Entrenate en el uso de mezclas de gases y equipos redundantes para explorar más allá del buceo recreativo.",
             price: "Consultar",
             image: "/cursos/course-tdi-extended-range.png"
-        },
-        {
-            title: "Buzo Trimix",
-            desc: "La cima del buceo exploratorio. Aprendé a usar Helio para reducir la narcosis y alcanzar grandes profundidades con claridad mental.",
-            price: "Consultar",
-            image: "/cursos/course-tdi-trimix.png"
         }
     ];
 
+    //CONFIGURAR MAIL CON CONSULTAR JONO.DIVING@GMAIL.COM
+
     const handleReservation = (courseTitle) => {
         const message = `Hola quiero mas info sobre el curso ${courseTitle}`;
-        const url = `https://wa.me/5491132804729?text=${encodeURIComponent(message)}`;
+        const url = `https://wa.me/5491157158251?text=${encodeURIComponent(message)}`;
         window.open(url, '_blank');
     };
 
