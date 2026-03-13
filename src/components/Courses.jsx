@@ -56,10 +56,8 @@ const Courses = () => {
         }
     ];
 
-    //CONFIGURAR MAIL CON CONSULTAR JONO.DIVING@GMAIL.COM
-
     const handleReservation = (courseTitle) => {
-        const message = `Hola quiero mas info sobre el curso ${courseTitle}`;
+        const message = `Hola como va? Quisiera mas info sobre el curso ${courseTitle} que vi en el sitio web.`;
         const url = `https://wa.me/5491157158251?text=${encodeURIComponent(message)}`;
         window.open(url, '_blank');
     };
@@ -75,11 +73,36 @@ const Courses = () => {
                             <div className="card-content">
                                 <h3 style={{ fontSize: '1.5rem', marginBottom: '10px' }}>{course.title}</h3>
                                 <p style={{ marginBottom: '20px', color: '#555' }}>{course.desc}</p>
-                                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                                    <span style={{ fontSize: '1.2rem', fontWeight: 'bold', color: 'var(--primary)' }}>{course.price}</span>
+                                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '10px', marginTop: 'auto' }}>
+                                    <a
+                                        href={`mailto:jono.diving@gmail.com?subject=INFO sobre curso ${course.title}`}
+                                        className="btn"
+                                        style={{ 
+                                            padding: '8px 12px', 
+                                            fontSize: '0.9rem', 
+                                            textDecoration: 'none',
+                                            textAlign: 'center',
+                                            borderRadius: '4px',
+                                            fontWeight: '600',
+                                            flex: '1',
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            justifyContent: 'center',
+                                            height: '40px'
+                                        }}
+                                    >
+                                        Consultar
+                                    </a>
                                     <button
                                         className="btn"
-                                        style={{ padding: '8px 16px', fontSize: '0.9rem' }}
+                                        style={{ 
+                                            padding: '8px 12px', 
+                                            fontSize: '0.9rem', 
+                                            borderRadius: '4px',
+                                            fontWeight: '600',
+                                            flex: '1',
+                                            height: '40px'
+                                        }}
                                         onClick={() => handleReservation(course.title)}
                                     >
                                         Reservar
