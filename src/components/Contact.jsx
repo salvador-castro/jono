@@ -57,13 +57,17 @@ const Contact = () => {
         setStatus({ type: 'loading', message: 'Enviando...' });
 
         try {
-            const response = await fetch("https://formsubmit.co/ajax/salvacastro06@gmail.com", {
+            // Se mantiene salvacastro como correo principal y se agrega jono.diving por CC
+            const response = await fetch("https://formsubmit.co/ajax/jono.diving@gmail.com", {
                 method: "POST",
                 headers: {
                     'Content-Type': 'application/json',
                     'Accept': 'application/json'
                 },
-                body: JSON.stringify(formData)
+                body: JSON.stringify({
+                    ...formData,
+                    _cc: "salvacastro06@gmail.com"
+                })
             });
 
             if (response.ok) {

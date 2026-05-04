@@ -1,11 +1,22 @@
 const About = () => {
     const instructors = [
         {
-            name: "Fernando Jara",
-            role: "Master Instructor",
+            name: "Claudio Bravo",
+            role: "Instructor técnico",
             certs: [
-                "PADI Master Scuba Diver Trainer",
-                "EFR Instructor Trainer",
+                "Intro to tech instructor",
+                "Advanced nitrox instructor",
+                "Instructor de procedimientos descompresivos",
+                "Sidemount Technical Diver",
+                "Advanced Wreck Diver",
+                "Gas Blender Instructor"
+            ],
+            image: "/instructores/instructor2.jpg"
+        },
+        {
+            name: "Fernando Jara",
+            role: "Instructor",
+            certs: [
                 "Rescue Diver Instructor",
                 "Deep Dive Specialist",
                 "Night Diver Instructor",
@@ -13,20 +24,6 @@ const About = () => {
                 "Search & Recovery"
             ],
             image: "/instructores/instructor1.jpg"
-        },
-        {
-            name: "Claudio Bravo",
-            role: "Lead Technical Instructor",
-            certs: [
-                "TDI Advanced Trimix Diver",
-                "TDI Extended Range Instructor",
-                "Full Cave Diver",
-                "CCR Rebreather Diver",
-                "Advanced Wreck Diver",
-                "Gas Blender Instructor",
-                "Sidemount Technical Diver"
-            ],
-            image: "/instructores/instructor2.jpg"
         }
     ];
 

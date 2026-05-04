@@ -3,19 +3,19 @@ const Courses = () => {
         {
             title: "Bautismo",
             desc: "Descubrí el mundo subacuático de forma segura y divertida. Tu primera respiración bajo el agua sin necesidad de experiencia previa.",
-            price: "$0",
+            price: "Consultar",
             image: "/cursos/course-bautismo.png"
         },
         {
             title: "Open Water Diver (OWD)",
             desc: "Tu pasaporte al buceo. Aprendé los fundamentos teóricos y prácticos para bucear de forma autónoma en cualquier lugar del mundo.",
-            price: "$250.000",
+            price: "Consultar",
             image: "/cursos/course-openwater.png"
         },
         {
             title: "Advanced Open Water",
             desc: "Perfeccioná tu flotabilidad y navegación. Explorá nuevas aventuras como buceo profundo, nocturno y en barcos hundidos.",
-            price: "$450.000",
+            price: "Consultar",
             image: "/cursos/course-advanced.png"
         },
         {
@@ -53,18 +53,12 @@ const Courses = () => {
             desc: "Superá los 40 metros. Entrenate en el uso de mezclas de gases y equipos redundantes para explorar más allá del buceo recreativo.",
             price: "Consultar",
             image: "/cursos/course-tdi-extended-range.png"
-        },
-        {
-            title: "Buzo Trimix",
-            desc: "La cima del buceo exploratorio. Aprendé a usar Helio para reducir la narcosis y alcanzar grandes profundidades con claridad mental.",
-            price: "Consultar",
-            image: "/cursos/course-tdi-trimix.png"
         }
     ];
 
     const handleReservation = (courseTitle) => {
-        const message = `Hola quiero mas info sobre el curso ${courseTitle}`;
-        const url = `https://wa.me/5491132804729?text=${encodeURIComponent(message)}`;
+        const message = `Hola como va? Quisiera mas info sobre el curso ${courseTitle} que vi en el sitio web.`;
+        const url = `https://wa.me/5491157158251?text=${encodeURIComponent(message)}`;
         window.open(url, '_blank');
     };
 
@@ -79,11 +73,36 @@ const Courses = () => {
                             <div className="card-content">
                                 <h3 style={{ fontSize: '1.5rem', marginBottom: '10px' }}>{course.title}</h3>
                                 <p style={{ marginBottom: '20px', color: '#555' }}>{course.desc}</p>
-                                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                                    <span style={{ fontSize: '1.2rem', fontWeight: 'bold', color: 'var(--primary)' }}>{course.price}</span>
+                                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '10px', marginTop: 'auto' }}>
+                                    <a
+                                        href={`mailto:jono.diving@gmail.com?subject=INFO sobre curso ${course.title}`}
+                                        className="btn"
+                                        style={{ 
+                                            padding: '8px 12px', 
+                                            fontSize: '0.9rem', 
+                                            textDecoration: 'none',
+                                            textAlign: 'center',
+                                            borderRadius: '4px',
+                                            fontWeight: '600',
+                                            flex: '1',
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            justifyContent: 'center',
+                                            height: '40px'
+                                        }}
+                                    >
+                                        Consultar
+                                    </a>
                                     <button
                                         className="btn"
-                                        style={{ padding: '8px 16px', fontSize: '0.9rem' }}
+                                        style={{ 
+                                            padding: '8px 12px', 
+                                            fontSize: '0.9rem', 
+                                            borderRadius: '4px',
+                                            fontWeight: '600',
+                                            flex: '1',
+                                            height: '40px'
+                                        }}
                                         onClick={() => handleReservation(course.title)}
                                     >
                                         Reservar
