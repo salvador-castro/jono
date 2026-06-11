@@ -12,7 +12,7 @@ Para poder levantar el proyecto, necesitás tener instaladas estas dos herramien
 
 ### 1. Git (Control de Versiones)
 Si ya usás Git con Python, salteate esto. Si no, descargalo e instalalo:
-* **Enlace**: Descargalo desde [git-scm.com](https://git-scm.com/).
+* **Enlace**: Descargalo desde <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">git-scm.com</a>.
 * Para verificar si ya lo tenés, abrí una terminal y ejecutá:
   ```bash
   git --version
@@ -20,7 +20,7 @@ Si ya usás Git con Python, salteate esto. Si no, descargalo e instalalo:
 
 ### 2. Node.js y npm (Para correr el sitio)
 El sitio está hecho con **React** y **Vite**, así que necesita Node.js para ejecutarse de forma local.
-* Descargá la versión **LTS** (la recomendada) desde [nodejs.org](https://nodejs.org/).
+* Descargá la versión **LTS** (la recomendada) desde <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer">nodejs.org</a>.
 * Instalalo normalmente (esto te instala tanto `node` como `npm`).
 * Verificá que haya quedado bien abriendo la terminal y ejecutando:
   ```bash
