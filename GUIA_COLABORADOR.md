@@ -1,4 +1,4 @@
-# Guía para Fer: Cómo hacer cambios en JonoBuceo
+# Cómo hacer cambios en JonoBuceo
 
 ¡Hola Fer! Hice esta guía para que la tengas a mano y puedas hacer cambios en el sitio paso a paso: bajarte el código, probarlo en tu compu y subir tus modificaciones.
 
