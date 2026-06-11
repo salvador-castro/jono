@@ -2,6 +2,9 @@
 
 ¡Hola Fer! Hice esta guía para que la tengas a mano y puedas hacer cambios en el sitio paso a paso: bajarte el código, probarlo en tu compu y subir tus modificaciones.
 
+> [!IMPORTANT]
+> **Antes de empezar**: Primero te voy a agregar como colaborador del repositorio, por lo que **necesitás tener una cuenta de GitHub creada**. Si todavía no tenés una, podés creártela gratis en <a href="https://github.com/" target="_blank" rel="noopener noreferrer">github.com</a> y pasarme tu nombre de usuario o el mail con el que te registraste.
+
 Como ya tenés conocimientos de Python, la consola y algunos conceptos te van a resultar familiares. Acá te detallo todo lo que necesitás para trabajar con el entorno de React/Node y Git.
 
 ---
