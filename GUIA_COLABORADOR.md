@@ -273,7 +273,7 @@ Cuando ya veas que todo quedó genial en tu navegador (`http://localhost:5173/`)
 
 ## 🌐 Paso Extra: Delegar el dominio en Nic.ar (Para apuntar a Vercel)
 
-Si tenés que configurar o actualizar el dominio del sitio (por ejemplo, `jonobuceo.com.ar`) para que apunte a los servidores de Vercel, tenés que delegar los DNS en la web de **NIC Argentina**:
+Para que la gente pueda entrar a **jono.com.ar** y ver la página web actual, se deben cambiar los DNS delegándolos en la web de **NIC Argentina** para que apunten a los servidores de Vercel (donde está alojado el proyecto):
 
 1. Ingresá a <a href="https://nic.ar/" target="_blank" rel="noopener noreferrer">nic.ar</a> e iniciá sesión con tu CUIT/CUIL y Clave Fiscal.
 2. Buscá la sección **"Mis Dominios"**.
@@ -293,4 +293,3 @@ Si tenés que configurar o actualizar el dominio del sitio (por ejemplo, `jonobu
 Una vez que subas tus cambios a `develop`, avisame. Yo me meto, reviso que todo esté en orden en la rama de pruebas y hago el merge a `main` para que los cambios se publiquen automáticamente en el sitio web real.
 
 ¡Cualquier duda que tengas escribime!
-
