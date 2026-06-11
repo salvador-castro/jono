@@ -271,7 +271,26 @@ Cuando ya veas que todo quedó genial en tu navegador (`http://localhost:5173/`)
 
 ---
 
+## 🌐 Paso Extra: Delegar el dominio en Nic.ar (Para apuntar a Vercel)
+
+Si tenés que configurar o actualizar el dominio del sitio (por ejemplo, `jonobuceo.com.ar`) para que apunte a los servidores de Vercel, tenés que delegar los DNS en la web de **NIC Argentina**:
+
+1. Ingresá a <a href="https://nic.ar/" target="_blank" rel="noopener noreferrer">nic.ar</a> e iniciá sesión con tu CUIT/CUIL y Clave Fiscal.
+2. Buscá la sección **"Mis Dominios"**.
+3. Ubicá el dominio del sitio web y hacé clic en el botón **"Delegar"**.
+4. Si ya tiene delegaciones anteriores, borralas.
+5. Hacé clic en **"Agregar nueva delegación"** e ingresá los dos servidores DNS (Name Servers) de Vercel:
+   * **`ns1.vercel-dns.com`**
+   * **`ns2.vercel-dns.com`**
+6. Guardá los cambios para confirmar la delegación.
+
+> [!NOTE]
+> Recordá que los cambios de DNS en NIC.ar no son instantáneos; suelen tardar entre **1 y 24 horas** en propagarse por internet para que el sitio web vuelva a estar visible con la nueva configuración.
+
+---
+
 ## 🔄 ¿Qué pasa después?
 Una vez que subas tus cambios a `develop`, avisame. Yo me meto, reviso que todo esté en orden en la rama de pruebas y hago el merge a `main` para que los cambios se publiquen automáticamente en el sitio web real.
 
 ¡Cualquier duda que tengas escribime!
+
